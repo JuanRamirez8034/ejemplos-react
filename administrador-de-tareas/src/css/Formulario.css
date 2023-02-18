@@ -1,0 +1,14 @@
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 94%;
+}
+
+.separador-linea {
+  width: 90%;
+  height: 0;
+  margin: 16px auto;
+  border-bottom: 0.5px gray solid;
+}

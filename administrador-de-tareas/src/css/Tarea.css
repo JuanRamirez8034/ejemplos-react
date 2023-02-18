@@ -1,0 +1,67 @@
+.cuerpo-tarea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    min-height: 40px;
+    margin: 4px auto 0 auto;
+    background: blue;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.contenedor-texto {
+    display: flex;
+    align-items: center;
+    width: 86%;
+    cursor: pointer;
+}
+
+.texto-tarea {
+    color: #ffffff;
+    text-shadow: 
+        0 0 3px #525252
+    ;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tarea-tachada {
+    text-decoration: line-through;
+}
+
+.contenedor-icono-eliminar {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.icono-eliminar {
+    width: 32px;
+    height: 32px;
+    resize: both;
+    transition: all 100ms ease-in-out;
+}
+
+.icono-eliminar:hover {
+    transform: scale(1.05);
+    animation-name: sacudir;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sacudir {
+    0%,
+    40%,
+    80% {
+        transform: rotate(0rad);
+    }
+    20%,
+    60% {
+        transform: rotate(1rad);
+        color: #852600;
+    }
+}

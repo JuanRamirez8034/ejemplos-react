@@ -1,0 +1,15 @@
+.cuerpo-lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background: #b8b8b8;
+}
+
+.cuerpo-lista::-webkit-scrollbar {
+    display: none;
+}

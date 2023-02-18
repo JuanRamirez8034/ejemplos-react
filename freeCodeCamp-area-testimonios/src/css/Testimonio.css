@@ -1,0 +1,68 @@
+.testimonio-tarjeta {
+    width: 90%;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.288);
+    transition: 100ms all linear;
+}
+
+.testimonio-tarjeta:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.testimonio-tarjeta:active {
+    transform: scale(0.9);
+    width: 70%;
+}
+
+.contenedor-imagen-tarjeta-testimonio {
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.imagen-tarjeta-testimonio {
+    width: 100%;
+    height: 100%;
+}
+
+.informacion-tarjeta-testimonio {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-tarjeta-testimonio {
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: lapto, 'sanf-serif';
+    width: 90%;
+    text-align: center;
+}
+
+.profesion-tarjeta-testimonio {
+    font-size: 1.05rem;
+    font-weight: 500;
+    font-family: lapto, 'sanf-serif';
+    width: 90%;
+    text-align: center;
+}
+
+.comentario-tarjeta-testimonio {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: lapto, 'sanf-serif';
+    font-style: oblique;
+    width: 90%;
+    text-align: justify;
+    margin-top: 10px;
+}
